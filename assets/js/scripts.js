@@ -345,8 +345,8 @@ jQuery(function ($) {
     (function () {
 
         //set your google maps parameters
-        var $latitude = 40.721020, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
-            $longitude = -73.998166,
+        var $latitude = 39.972217, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
+            $longitude = -75.249940,
             $map_zoom = 16 /* ZOOM SETTING */
 
         //google map custom marker icon 
@@ -387,7 +387,7 @@ jQuery(function ($) {
             icon: $marker_url
         });
 
-        var contentString = '<div id="mapcontent">' + '<p>Nominee, 795 Folsom Ave, San Francisco.</p></div>';
+        var contentString = '<div id="mapcontent">' + '<p>6516 Haverford Ave. Philadelphia PA 19151</p></div>';
         var infowindow = new google.maps.InfoWindow({
             maxWidth: 320,
             content: contentString
